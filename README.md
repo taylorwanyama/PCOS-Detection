@@ -17,7 +17,7 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
 - `BMI`: Body Mass Index of each Patient.
 - `Menstrual_Irregularity`: Show if a patient has menstrual irregularity or not.
 - `Testosterone_Level(ng/dL)`: The patients' level of Testosterone.
-- `Antral_Follicle_Count`: The number of antral follicle.
+- `Antral_Follicle_Count`: The number of antral follicles.
 - `PCOS_Diagnosis`: Shows if a patient has PCOS or not.
 
 ## Steps in the Project
@@ -26,7 +26,7 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
    - Checked for missing values and data types.
 2. **Exploratory Data Analysis (EDA)**
    - Visualized the target variable, PCOS_diagnosis.
-   - Checked for correlations between the explanatory Varibles and the target variable to identify key influencing factors.
+   - Checked for correlations between the explanatory variables and the target variable to identify key influencing factors.
    - Plotted the correlation using a heatmap.
 3. **Data Standardization**
    - Standardized all features in the dataset except the PCOS_diagnosis feature     
@@ -38,6 +38,7 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
 5. **Results & Conclusion**
    - The best-performing models were found to be **Decision Tree Classifier** and **Random Forest Classifier**.
    - Both the **Decision Tree Classifier** and **Random Forest Classifier** had an **accuracy score** of 0.995 after tuning.
+   - The models, **Decision Tree Classifier** and **Random Forest Classifier**, also had a recall of 1.00 for no PCOS and 0.97 for with PCOS.  
 ## Dependencies
 
 To run this project, install the following libraries:
