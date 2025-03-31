@@ -23,10 +23,11 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
 ## Steps in the Project
 
 1. **Data Preprocessing**
-   - Checked for missing values and data types..
+   - Checked for missing values and data types.
 2. **Exploratory Data Analysis (EDA)**
-   - Visualized the target variable, PCOS_diagnosis .
+   - Visualized the target variable, PCOS_diagnosis.
    - Checked for correlations between the explanatory Varibles and the target variable to identify key influencing factors.
+   - Plotted the correlation using a heatmap.
 3. **Data Standardization**
    - Standardized all features in the dataset except the PCOS_diagnosis feature     
 4. **Model Selection & Training**
@@ -35,7 +36,8 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
    - Performed **Hyperparameter tuning** on the tree trained models using **GridSearchCV** .
    - Evaluated models using metrics like **accuracy_score,Precision, recall, confusion matrix, and F1-score**.
 5. **Results & Conclusion**
-   - The best-performing models were found to be **Desion Tree Classifier** and **Random Forest Classifier**.
+   - The best-performing models were found to be **Decision Tree Classifier** and **Random Forest Classifier**.
+   - Both the **Decision Tree Classifier** and **Random Forest Classifier** had an **accuracy score** of 0.995 after tuning.
 ## Dependencies
 
 To run this project, install the following libraries:
@@ -48,11 +50,11 @@ pip install pandas numpy seaborn matplotlib scikit-learn
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/taylorwanyama/PCOS-Detection/edit/main/README.md)
+   git clone https://github.com/taylorwanyama/PCOS-Detection.git
    ```
 2. Open the Jupyter Notebook and run the cells sequentially.
 3. Modify parameters and visualize results for deeper analysis.
 
 ## Author
 
-Taylor Wanyama 
+[Taylor Wanyama] 
