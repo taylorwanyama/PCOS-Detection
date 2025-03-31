@@ -11,7 +11,7 @@ The project will include hyperparameter tuning to optimize the models and identi
 
 ## Dataset
 
-The dataset used is **pcos_dataset.csv**, which contains the following features:
+The dataset used is **https://www.kaggle.com/datasets/samikshadalvi/pcos-diagnosis-dataset**, which contains the following features:
 
 - `Age`: The age of patients.
 - `BMI`: Body Mass Index of each Patient.
