@@ -27,7 +27,7 @@ The dataset used is **pcos_dataset.csv**, which contains the following features:
 2. **Exploratory Data Analysis (EDA)**
    - Visualized the target variable, PCOS_diagnosis .
    - Checked for correlations between the explanatory Varibles and the target variable to identify key influencing factors.
-3. ** Data Standardization**
+3. **Data Standardization**
    - Standardized all features in the dataset except the PCOS_diagnosis feature     
 4. **Model Selection & Training**
    - Implemented **Logistic Regression** as the baseline model.
