@@ -55,4 +55,4 @@ pip install pandas numpy seaborn matplotlib scikit-learn
 
 ## Author
 
-[Taylor Wanyama] - 
+Taylor Wanyama 
